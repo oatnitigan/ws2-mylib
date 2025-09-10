@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.3",
+    "@types/sqlite3": "^5.1.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.26",
+    "typescript": "^5.9.2"
+  }
+}
